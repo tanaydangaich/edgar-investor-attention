@@ -1,10 +1,10 @@
 # SEC EDGAR Download Activity Pipeline
 
-A data pipeline for constructing a firm-year panel of SEC EDGAR filing download activity (2003–2015), used as a proxy for investor attention in empirical finance research.
+A data pipeline for constructing a firm-year panel of SEC EDGAR filing download activity (2003–2015), used as a proxy for investor attention.
 
 ## Overview
 
-EDGAR server logs record every time a user downloads a filing from the SEC website. By aggregating these logs to the firm-year level, we can measure how much investor attention each firm received in a given year — a variable used in asset pricing, market microstructure, and information-based research.
+EDGAR server logs record every time a user downloads a filing from the SEC website. By aggregating these logs to the firm-year level, we can measure how much investor attention each firm received in a given year.
 
 This pipeline filters the raw EDGAR logs to a target sample of firms, aggregates download counts by firm and year, and produces a clean panel dataset.
 
