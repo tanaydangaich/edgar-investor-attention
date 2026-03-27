@@ -1,0 +1,39 @@
+# Raw EDGAR log data (16GB+)
+2003/
+2004/
+2005/
+2006/
+2007/
+2008/
+2009/
+2010/
+2011/
+2012/
+2013/
+2014/
+2015/
+
+# Generated output CSVs
+*.csv
+*.csv.gz
+
+# Input data / firm list
+*.xls
+*.xlsx
+
+# Research documents
+*.docx
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

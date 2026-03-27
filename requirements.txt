@@ -1,0 +1,3 @@
+pandas
+xlrd        # required for reading .xls (Excel 97-2003 format)
+openpyxl    # for .xlsx support if needed
